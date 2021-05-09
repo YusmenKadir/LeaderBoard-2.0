@@ -1,38 +1,37 @@
-.App {
+body {
+  background-color: grey;
+}
+
+.row{
+  column-count: 3;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.colHeader{
+  background-color: aquamarine;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.playerRow {
+  background-color: azure;
+  border-color: grey;
+  border-width: 1px;
+  border-style: solid;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mainHeader {
+  text-align: center;
+  background-color: aqua;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.topLevel {
+  background-color: beige;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 10px;
+  padding: 5px;
 }
